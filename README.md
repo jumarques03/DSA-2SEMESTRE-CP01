@@ -26,21 +26,42 @@ A pasta com os arquivos executáveis está em: ***DSA-2SEMESTRE-DSA.zip***
 -  [`relatório`](https://docs.google.com/document/d/1kgjsK7nocS7PwCzsg9bomOse-K9ZXzCveyrJTUEE_VI/edit?usp=sharing)
 
 ---
-
-## 🛠️ Compilação e Execução
+## 🛠️ Compilação e Execução - Após extrair o arquivo ZIP
 Para compilar e executar os programas, utilize o compilador **gcc**:  
 
-**OBS: Faça o clone do repositório antes!**
+### Bubble Sort
+```bash
+cd bubblesort
+./crescente
+./decrescente
+
+```
+### Insertion Sort
+```bash
+cd insertionsort
+./crescente
+./decrescente
+
+```
+
+### qsort
+```bash
+cd qsort
+./crescente
+./decrescente
+
+```
+
+## 🛠️ Compilação e Execução - Clonado o Repositório
+Para compilar e executar os programas, utilize o compilador **gcc**:  
 
 ### Bubble Sort
 ```bash
 cd bubblesort
 
-# Executar ordenação crescente
 gcc crescente.c -o crescente
 ./crescente
 
-# Executar ordenação decrescente
 gcc decrescente.c -o decrescente
 ./decrescente
 
