@@ -16,37 +16,25 @@ void gerar_vetor(int *vetor, int tamanho) {
     }
 }
 
-int bubble_sort_decres(int *vetor, int tamanho_vetor){
-    int troca;
-    int contador = 0;
-    do{
-        troca = 0;
-        for (int i = 0; i < tamanho_vetor - 1; i++) {
-            if (vetor[i] < vetor[i + 1]){
-                int temp = vetor[i];
-                vetor[i] = vetor [i + 1];
-                vetor[i+1] =  temp;
-                troca = 1;
-                contador++;
-            }
-        }
-        
-        tamanho_vetor--; // Depois do maior valor ter ido para o final, diminui o tamanho do vetor e segue o loop até acabar
-    }while(troca != 0);  
-    
-    return contador;
+int compara_crescente(const void *a, const void *b) {
+    int *ponteiro_a = (int *)a;
+    int *ponteiro_b = (int *)b;
+
+    int valor_a = *ponteiro_a;
+    int valor_b = *ponteiro_b;
+
+    return valor_a - valor_b;
 }
 
-void medicoes(int *vetor, int n, int v ){
+void medicoes(int *vetor, int n, int v){
     gerar_vetor(vetor, n);
 
     clock_t inicio = clock();
-    int contador_decrescente = bubble_sort_decres(vetor, n);
+    qsort(vetor, n, sizeof(vetor[0]), compara_crescente);
     clock_t fim = clock();
 
     double tempo_execucao= ms(inicio, fim);
-    printf("\nContagem de trocas (vetor com %d valores): %d",v, contador_decrescente);
-    printf("\nTempo de execução: %f ms\n\n", tempo_execucao);
+    printf("\nTempo de execução para %d valores: %f ms\n\n",v, tempo_execucao);
 }
 
 int main(){
@@ -69,8 +57,8 @@ int main(){
     medicoes(vetor02, n02, 5000);
 
     int n03 = 10000;
-    int *vetor03  = malloc(n03  * sizeof(int));
-    if (vetor03  == NULL) {
+    int *vetor03 = malloc(n03 * sizeof(int));
+    if (vetor03 == NULL) {
         printf("Erro ao alocar memória.\n");
         return 1;
     }
