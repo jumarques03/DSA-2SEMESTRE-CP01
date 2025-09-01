@@ -11,7 +11,9 @@ Foram desenvolvidas versões dos algoritmos **Bubble Sort**, **Insertion Sort** 
 Os experimentos foram realizados com vetores de **1000, 5000 e 10000 elementos** no intervalo de **0 a 999**, avaliando o comportamento prático de cada algoritmo.
 
 ---
-
+## Executável
+A pasta com os arquivos executáveis está em: ***DSA-2SEMESTRE-DSA.zip***
+---
 ## 📂 Estrutura do Trabalho
 - [`bubblesort/`](https://github.com/jumarques03/DSA-2SEMESTRE-CP01/tree/main/bubblesort) → Implementação do Bubble Sort  
 - [`insertionsort/`](https://github.com/jumarques03/DSA-2SEMESTRE-CP01/tree/main/insertionsort) → Implementação do Insertion Sort  
