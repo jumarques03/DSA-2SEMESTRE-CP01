@@ -1,7 +1,7 @@
 # 📊 Checkpoint 01 — Medindo Performance de Ordenações em C
 
 ## 📌 Descrição
-Este projeto tem como objetivo analisar o desempenho de diferentes algoritmos de ordenação implementados em **C**.  
+Este trabalho tem como objetivo analisar o desempenho de diferentes algoritmos de ordenação implementados em **C**.  
 
 Foram desenvolvidas versões dos algoritmos **Bubble Sort**, **Insertion Sort** e **qsort**, medindo:  
 
@@ -12,7 +12,7 @@ Os experimentos foram realizados com vetores de **1000, 5000 e 10000 elementos**
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do Trabalho
 - [`bubblesort/`](https://github.com/jumarques03/DSA-2SEMESTRE-CP01/tree/main/bubblesort) → Implementação do Bubble Sort  
 - [`insertionsort/`](https://github.com/jumarques03/DSA-2SEMESTRE-CP01/tree/main/insertionsort) → Implementação do Insertion Sort  
 - [`qsort/`](https://github.com/jumarques03/DSA-2SEMESTRE-CP01/tree/main/qsort) → Implementação usando a função `qsort` 
