@@ -18,6 +18,7 @@ Os experimentos foram realizados com vetores de **1000, 5000 e 10000 elementos**
 - [`qsort/`](https://github.com/jumarques03/DSA-2SEMESTRE-CP01/tree/main/qsort) → Implementação usando a função `qsort` 
 - [`resultados.csv`](https://github.com/jumarques03/DSA-2SEMESTRE-CP01/blob/main/resultados.csv) → Resultados obtidos em diferentes cenários de entrada  
 
+**Link para o relatório do projeto: [`relatório`](https://docs.google.com/document/d/1kgjsK7nocS7PwCzsg9bomOse-K9ZXzCveyrJTUEE_VI/edit?usp=sharing)**
 ---
 
 ## 🛠️ Compilação e Execução
