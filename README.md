@@ -28,19 +28,36 @@ Para compilar e executar os programas, utilize o compilador **gcc**:
 ### Bubble Sort
 ```bash
 cd bubblesort
-gcc bubblesort.c -o bubblesort
-./bubblesort
+
+# Executar ordenação crescente
+gcc crescente.c -o crescente
+./crescente
+
+# Executar ordenação decrescente
+gcc decrescente.c -o decrescente
+./decrescente
+
 ```
 ### Insertion Sort
 ```bash
 cd insertionsort
-gcc insertionsort.c -o insertionsort
-./insertionsort
+
+gcc crescente.c -o crescente
+./crescente
+
+gcc decrescente.c -o decrescente
+./decrescente
+
 ```
 
 ### qsort
 ```bash
 cd qsort
-gcc qsort.c -o qsort
-./qsort
+
+gcc crescente.c -o crescente
+./crescente
+
+gcc decrescente.c -o decrescente
+./decrescente
+
 ```
