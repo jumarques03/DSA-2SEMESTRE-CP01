@@ -1,0 +1,19 @@
+Algoritmo,Cenario,TamanhoVetor,ContagemTrocas,TempoExecucaoMS
+Bubble Sort,Teste Crescente,1000,244883,1.0
+Bubble Sort,Teste Crescente,5000,6219415,37.0
+Bubble Sort,Teste Crescente,10000,24926330,197.0
+Bubble Sort,Teste Decrescente,1000,254617,1.0
+Bubble Sort,Teste Decrescente,5000,6268085,43.0
+Bubble Sort,Teste Decrescente,10000,25023670,285.0
+Insertion Sort,Teste Crescente,1000,999,0.0
+Insertion Sort,Teste Crescente,5000,4999,14.0
+Insertion Sort,Teste Crescente,10000,9999,63.0
+Insertion Sort,Teste Decrescente,1000,999,1.0
+Insertion Sort,Teste Decrescente,5000,4999,18.0
+Insertion Sort,Teste Decrescente,10000,9999,110.0
+qsort,Teste Crescente,1000,N/A,0.0
+qsort,Teste Crescente,5000,N/A,0.0
+qsort,Teste Crescente,10000,N/A,1.0
+qsort,Teste Decrescente,1000,N/A,0.0
+qsort,Teste Decrescente,5000,N/A,0.0
+qsort,Teste Decrescente,10000,N/A,1.0
