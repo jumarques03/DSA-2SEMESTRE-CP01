@@ -20,7 +20,7 @@ void gerar_vetor(int *vetor, int tamanho) {
 int insertion_crescente(int *v, int n) {
     int contador = 0;
     for (int i = 1; i < n; i++) {   // Percorre o vetor a partir do segundo elemento, pq ele considera que o primeiro já está ordenado
-        int chave = v[i]; // "A carta que vc retirou do baralho e colocará na ordem correta"
+        int chave = v[i]; 
         int j = i - 1;  // Serve para percorrer o vetor ordenado, começa da direita para esquerda
         while (j >= 0 && v[j] > chave){   
             v[j+1] = v[j];  
@@ -72,5 +72,9 @@ int main(){
 
     medicoes(vetor03, n03, 10000);
 
+    free(vetor01);
+    free(vetor02);
+    free(vetor03);
+    
     return 0;
 }

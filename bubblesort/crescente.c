@@ -77,5 +77,9 @@ int main(){
 
     medicoes(vetor03, n03, 10000);
 
+    free(vetor01);
+    free(vetor02);
+    free(vetor03);
+
     return 0;
 }
